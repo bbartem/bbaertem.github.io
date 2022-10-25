@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Nanum Gothic";
+    src: url("../fonts/NanumGothic-Regular.ttf") format("truetype");
+}
+body{
+    font-family: "Nanum Gothic";
+
+    height: 700px;
+    width: 450px;
+}
+hr{
+    background: #C75526;
+    width: 70px;
+    height: 2px;
+    margin-left: 50px;
+    border: none;
+}
+h1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+label{
+    color: white;
+    margin-left: 60px;
+}
+
+input.fields{
+    width: 350px;
+    height: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    outline: none;
+    background: rgba( 255,255,255,.2);
+    border: none;
+}
+button{
+    width: 350px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: #ce8e5a;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+.containerRegistration{
+
+    background: url("../img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid darkblue;
+    height: 700px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+}
+img.background {
+    height: 700px;
+    width: 450px;
+}
+
+
