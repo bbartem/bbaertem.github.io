@@ -7,6 +7,8 @@ body{
 
     height: 700px;
     width: 450px;
+
+    margin: 50px auto;
 }
 hr{
     background: #C75526;
@@ -14,6 +16,7 @@ hr{
     height: 2px;
     margin-left: 50px;
     border: none;
+    margin-top: -30px;
 }
 h1{
     color: white;
@@ -24,6 +27,12 @@ h1{
 label{
     color: white;
     margin-left: 60px;
+    box-sizing: border-box;
+}
+.labelEmail{
+
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 input.fields{
@@ -35,6 +44,12 @@ input.fields{
     outline: none;
     background: rgba( 255,255,255,.2);
     border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+    caret-color: #C75526;
+    caret-shape: underscore;
 }
 button{
     width: 350px;
@@ -47,13 +62,25 @@ button{
     margin-left: 50px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 25px;
+    text-align: center;
+    box-shadow: 0 3px #BA6F15;
+}
+button:hover {background-color: #D17C17}
+
+button:active {
+    background-color: #B06B16;
+    box-shadow: 0 5px #B03F16;
+    transform: translateY(4px);
 }
 .containerRegistration{
 
     background: url("../img/img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 5px solid darkblue;
+    border: 5px solid #630800;
     height: 700px;
     width: 450px;
     top: 50%;
@@ -64,4 +91,23 @@ img.background {
     width: 450px;
 }
 
-
+@media all and (min-width: 1024px) and (max-width: 1280px){
+    .containerRegistration{
+        width: 1020px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .containerRegistration{
+        width: 750px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px){
+    .containerRegistration{
+        width: 470px;
+    }
+}
+@media all and (max-width: 480px){
+    .containerRegistration{
+        width: 470px
+    }
+}
