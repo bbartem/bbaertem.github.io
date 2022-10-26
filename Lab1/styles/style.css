@@ -11,6 +11,13 @@ body {
 	font-family: "Neucha";
 	font-size: 25px;
 }
+img{
+	height: 250px;
+	width: 300px;
+	text-align: center;
+	margin-left: 130px;
+	margin-top: 65px;
+}
 h1{
 
 }
@@ -19,6 +26,7 @@ h1{
 	height: 400px;
 	background: #FAEBD7;
 	margin: 0 auto;
+	padding-left: 25px;
 }
 .container2{
 	width: auto;
@@ -32,8 +40,31 @@ h1{
 	background: #AFEEEE;
 	margin: 0 auto;
 }
-
-
+.forms{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15px;
+}
+input{
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+.labels{
+	margin-top: 5px;
+}
+textarea{
+	margin-top: 10px;
+}
+.files{
+	margin-left: 140px;
+}
+.colors{
+	margin-left: -70px;
+}
+label{
+	position-top: 5px;
+}
 
 @media all and (min-width: 1024px) and (max-width: 1280px){
 	.container{
