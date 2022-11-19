@@ -1,0 +1,121 @@
+.point{
+    color: #062eb4;
+}
+
+
+.container2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.block{
+    margin-left: auto;
+    margin-right: auto;
+    width: 82.35294118%;
+    height: auto;
+    background: #D4E5ED;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.textBlock{
+    width: 60%;
+    height: auto;
+    text-align: left;
+    float: left;
+    padding-top: 15px;
+}
+.codeBlock{
+    width: 40%;
+    text-align: left;
+    float: right;
+    font-weight: bold;
+}
+
+pre.code {
+    font-size: 15px;
+    border: 2px solid grey;
+    width: 460px;
+    border-left: 12px solid green;
+    border-radius: 5px;
+    padding: 14px;
+    line-height: 24px;
+    background-image: linear-gradient(180deg, #eee 50%, #fff 50%);
+    background-size: 100% 48px;
+    background-position: 0 14px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    overflow: hidden;
+}
+.lead{
+    font-size: 25px;
+    padding-left: 25px;
+    width: 700px;
+}
+.text1{
+    font-size: 24px;
+    color: #838283;
+    padding-left: 25px;
+    line-height: 0;
+}
+.text2{
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+    padding-left: 25px;
+    line-height: 5px;
+}
+.tickerText{
+    font-size: 100px;
+    color: #3357E0;
+    font-weight: bold;
+    padding-left: 15px;
+    line-height: 0;
+}
+a.tickerText:hover{
+    color: #0160ad;
+    font-size: 110px;
+}
+
+.button{
+    font-size: 24px;
+    height: 60px;
+    width: 190px;
+    background-color: #3357E0;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    letter-spacing: 1px;
+}
+.buttonC{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+a.button:hover{
+    background-color: #3357E0;
+    font-size: 24px;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+a.button:active{
+    background: #FFFFFF;
+}
+.textkurs{
+    text-align: left;
+    padding-left: 145px;
+    padding-top: 15px;
+    font-size: 35px;
+    line-height: 0;
+    font-weight: bold;
+}
+.container3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 82.35294118%;
+    height: auto;
+}
+

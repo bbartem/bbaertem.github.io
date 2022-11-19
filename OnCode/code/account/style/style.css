@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Cuprum';
+    src: url(https://fonts.gstatic.com/s/cuprum/v20/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6VjbYJwQj.woff2);
+}
+* {
+    box-sizing: border-box;
+}
+img.logo{
+    width: 250px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #0160ad;
+    border-width: 5px;
+    background-color: #D4E5ED;
+    padding: 10px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+body{
+    font-family: "Cuprum";
+    background: #333333;
+}
+
+.container{
+    width: 1700px;
+    height: auto;
+    background: #333333;
+    text-align: center;
+    margin: 50px auto;
+
+}
+.ts {
+    font-size: 57px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow:
+            -0   -1px 0   #FFFFFF,
+            0   -1px 0   #FFFFFF,
+            -0    1px 0   #FFFFFF,
+            0    1px 0   #FFFFFF,
+            -1px -0   0   #FFFFFF,
+            1px -0   0   #FFFFFF,
+            -1px  0   0   #FFFFFF,
+            1px  0   0   #FFFFFF,
+            -1px -1px 0   #FFFFFF,
+            1px -1px 0   #FFFFFF,
+            -1px  1px 0   #FFFFFF,
+            1px  1px 0   #FFFFFF,
+            -1px -1px 0   #FFFFFF,
+            1px -1px 0   #FFFFFF,
+            -1px  1px 0   #FFFFFF,
+            1px  1px 0   #FFFFFF;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    border-style: inset;
+    border-width: 2px;
+    width: 88.2352%;
+}
+.header {
+    background: url("../img/header.jpg");
+    width: auto;
+    height: 150px;
+    border-radius: 35px 35px 0 0;
+}
+nav {
+    background: #a2a2a2;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+a {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px;
+    transition: all 300ms;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+a.aaccount{
+    padding: 0;
+}
+a:hover {
+    color: #0160ad;
+    font-size: 30px;
+}
+.content {
+    background: #d2d0d2;
+    max-width: 100%;
+    width: 1700px;
+    height: auto;
+    padding-bottom: 5%;
+    margin-top: -8px;
+}
+
+footer {
+    background: #838283;
+    border-radius: 0 0 35px 35px;
+    padding: 10px;
+    height: auto;
+}
+
+a.navFooter{
+    font-size: 25px;
+}
+.row2{
+    width: 82.35294118%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+.textFooter{
+    font-size: 45px;
+    line-height: 0;
+    padding-top: 0;
+    text-align: left;
+}
+.text3{
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
+.fa-brands {
+    font-size: 45px;
+    padding-right: 15px;
+}
+.colFooter{
+    height: 5px;
+    height: auto;
+}
+
+.aFooter{
+    line-height: 0;
+    font-size: 45px;
+    float: left;
+    height: 25px;
+    padding-bottom: 40px;
+}
+.fa-user-tie{
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+
+}
+.account{
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+@media all and (min-width: 1022px) and (max-width: 1280px){
+    .container,.container2,.container3{
+        width: 1020px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1022px){
+    .container,.container2,.container3{
+        width: 750px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px){
+    .container,.container2,.container3{
+        width: 470px;
+    }
+}
+@media all and (max-width: 480px){
+    .container,.container2,.container3{
+        width: 470px
+    }
+}
+.main-contacts{
+    background: #d4e5ed;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+ #zatemnenie {
+     background: rgba(102, 102, 102, 0.5);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: none;
+ }
+#okno {
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie:target {display: block;}
+.close {
+    display: inline-block;
+    border: 1px solid #0000cc;
+    color: #0000cc;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+}
+.close:hover {background: #e6e6ff;}
+
+.fa-xmark{
+    font-size: 30px;
+}
+.accountText{
+    padding-bottom: 5px;
+}
