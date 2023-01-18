@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Arial;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+}
+.container{
+    margin: 0px auto;
+    width: 1024px;
+    height: 1000px;
+}
+.row{
+    height: 200px;
+    width: 1024px;
+    background: #6fa7da;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav{
+    width: 1024px;
+    height: 50px;
+    background: #b8c9f2;
+}
+.content{
+    width: 1024px;
+    height: 600px;
+    background: #002580;
+}
+.clear {
+    clear: both;
+}
+footer{
+    width: 1024px;
+    height: 150px;
+    background: #0a1f52;
+}
+.col1 img{
+    height: 150px;
+    width: 300px;
+}
+.link{
+    height: 150px;
+    width: 300px;
+    display: block;
+}
+.col1{
+    float: left;
+}
+.col2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.search{
+    margin-top: 80px;
+}

@@ -1,0 +1,12 @@
+.container {
+    border: 2px solid green;
+    padding: 10px 8%;
+}
+table {
+    border: 2px solid red;
+    margin-left: 5%;
+}
+td.total {
+    background-color: greenyellow;
+    text-align: right;
+}
