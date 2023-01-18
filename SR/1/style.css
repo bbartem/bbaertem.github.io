@@ -6,7 +6,26 @@ table {
     border: 2px solid red;
     margin-left: 5%;
 }
-td.total {
+td.total2 {
     background-color: greenyellow;
     text-align: right;
+}
+td.total1 {
+    text-align: right;
+}
+thead {
+    background-color: #e892ad;
+}
+ul{
+    margin-left: 35px;
+}
+
+fieldset input {
+    margin-left: 8%;
+    margin-top: 6px;
+}
+
+.textForm {
+    margin-top: 30px;
+    margin-left: 5%;
 }
