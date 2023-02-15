@@ -6,7 +6,7 @@ let currentX = 8;
 let currentY = 132.438;
 let currentSize = 100;
 
-executeBtn.click(function() {
+executeBtn.click(()  => {
     currentX += 50;
     currentY += 50;
     currentSize += 150;
@@ -18,7 +18,7 @@ executeBtn.click(function() {
     });
 });
 
-revertBtn.click(function() {
+revertBtn.click(()  => {
     currentX = 8;
     currentY = 132.438;
     currentSize = 100;
