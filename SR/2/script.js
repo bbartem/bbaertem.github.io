@@ -51,6 +51,8 @@ function isEmpty(obj) {
     }
     return true;
 }
+
+
 function task5(){
     alert("Задание 5 - Функция multiplyNumeric(obj), которая умножает все числовые свойства объекта obj на 2.\n");
     let menu = {
