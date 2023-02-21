@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Nanum Gothic";
-    src: url("./fonts/NanumGothic-Regular.ttf") format("truetype");
+    src: url("fonts/NanumGothic-Regular.ttf") format("truetype");
 }
 body{
     font-family: "Nanum Gothic";

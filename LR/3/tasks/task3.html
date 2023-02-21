@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Задание 3</title>
+</head>
+<body>
+<button onclick="window.location.href='../index.html'">Назад</button>
+<h1>Сортировки массива</h1>
+<p>Начальный массив: <span id="initialArray"></span></p>
+<p>Сортированный массив: <span id="sortedArray"></span></p>
+<script>
+    let arr = [];
+    while (arr.length < 5) {
+        let rand = Math.floor(Math.random() * 90) + 10;
+        arr.push(rand);
+    }
+    document.getElementById("initialArray").textContent = arr.join(", ");
+    arr.sort();
+    document.getElementById("sortedArray").textContent = arr.join(", ");
+</script>
+
+</body>
+</html>
