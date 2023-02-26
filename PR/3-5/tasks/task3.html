@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button onclick="window.location.href='../index.html'">Назад</button>
+<div class="block-first" style="background-color: green;">
+    <p>FirstBlock</p>
+</div>
+<div class="block-second" style="background-color: red;">
+    <p>SecondBlock</p>
+</div>
+<div class="block-third" style="background-color: blue;">
+    <p>ThirdBlock</p>
+</div>
+
+<script>
+    var elements = document.querySelectorAll("[class*=block-]").forEach(element => {
+        element.style.width = "180px";
+        element.style.height = "180px";
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/task4.css">
+    <title>Задание 4</title>
+</head>
+<body>
+<button onclick="window.location.href='../index.html'">Назад</button><br><br>
+<img id="image" src="img/1.jpg" alt="Упс..." onclick="let nextImg = 'img/' + (randomIntFromInterval(1, 6)) + '.jpg'
+document.getElementById('image').src=nextImg
+console.log(nextImg);">
+<br>
+<label>Ширина</label>
+<br>
+<input id="width" type="text">
+<label>px</label>
+<br>
+<label>Высота</label>
+<br>
+<input id="height" type="text">
+<label>px</label>
+<br>
+<label>Толщина рамки</label>
+<br>
+<input id="border" type="text">
+<label>px</label>
+<br>
+<label>Альтернативный текст</label>
+<br>
+<input id="alt" type="text">
+<br>
+<br>
+<button type="button" onclick="buttonClick()">Изменить</button>
+
+<script>
+    function buttonClick() {
+        let width = document.getElementById("width").value + "px"
+        let height = document.getElementById("height").value + "px"
+        let border = document.getElementById("border").value + "px"
+        let alt = document.getElementById("alt").value
+
+        let pic = document.getElementById("image")
+
+        pic.style.width = width
+        pic.style.height = height
+        pic.style.alt = alt
+        pic.style.borderWidth = border
+    }
+    function randomIntFromInterval(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+</script>
+</body>
+</html>

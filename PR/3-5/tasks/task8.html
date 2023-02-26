@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/task8.css">
+    <title>Задание 8</title>
+</head>
+<body>
+<button onclick="window.location.href='../index.html'">Назад</button><br><br>
+<h2 class="sce">H2 1</h2>
+<h2 class="test">H2 2</h2>
+<h2 class="erw">H2 3</h2>
+
+<p>First</p>
+<p>Second</p>
+<p>Third</p>
+
+<ul>
+    <li>пункт</li>
+    <li>да</li>
+    <li>пункт</li>
+    <li>пункт</li>
+    <li>нет</li>
+    <li>пункт</li>
+    <li>пункт</li>
+    <li>да</li>
+    <li>пункт</li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $("h2:not(.test)").css("color", "red")
+    $("p:first").css("color", "red")
+    $("li:contains(пункт)").css("color", "red")
+    $("li:first").css("color", "blue")
+    $("li:odd").css("color", "blue")
+</script>
+</body>
+</html>
