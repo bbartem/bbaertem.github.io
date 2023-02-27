@@ -12,8 +12,8 @@ function task1(){
     } else {
         alert('OK')
     }
-
 }
+
 function task2(){
     alert("Задание 2 - Возвращает меньшее из чисел a и b.");
     let taskTwoVariableA = prompt('Введите число a:');
@@ -54,7 +54,8 @@ function isEmpty(obj) {
 
 
 function task5(){
-    alert("Задание 5 - Функция multiplyNumeric(obj), которая умножает все числовые свойства объекта obj на 2.\n");
+    alert("Задание 5 - Функция multiplyNumeric(obj), " +
+        "которая умножает все числовые свойства объекта obj на 2.\n");
     let menu = {
         width: 200,
         height: 300,
@@ -79,7 +80,8 @@ function multiplyNumeric(obj) {
 
 
 function task6(){
-    alert("Цикл, который предлагает prompt ввести число, большее 100, но меньше 250. Если посетитель ввёл другое число – попросить ввести ещё раз, и так далее.\n")
+    alert("Цикл, который предлагает prompt ввести число, большее 100, но меньше 250. " +
+        "Если посетитель ввёл другое число – попросить ввести ещё раз, и так далее.\n")
     let num;
     while (true) {
         num = prompt("Введите число больше 100 и меньше 250: ");
