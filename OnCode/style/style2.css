@@ -1,0 +1,92 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-container{
+    padding-top: 30px;
+}
+
+.card .actions a {
+    background-color: #0160ad;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card .actions a:hover {
+    background-color: #5f1b29;
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-container {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .card {
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+.container_card {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
