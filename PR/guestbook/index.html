@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <p class="book_gost">Гостевая книга</p>
+        <table class="book_gost">
+            <form method="post" action="processing.php">
+                <tr>
+                    <td>Имя:</td>
+                    <td><input type="text" placeholder="Ваше имя" name="name"</td>
+                </tr>
+                <tr>
+                    <td>Возраст:</td>
+                    <td><input type="text" name="age"></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" placeholder="Ваша почта" name="email"</td>
+                </tr>
+                <tr>
+                    <td>Комментарий:</td>
+                    <td><textarea name="comment"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" value="Отправить" name="go_reg"></td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    
+</body>
+</html>

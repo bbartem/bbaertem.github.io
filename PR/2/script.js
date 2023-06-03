@@ -12,7 +12,13 @@ function thirdTask() {
     alert(document.getElementById("text_input").value)
 }
 
-let colorSwitcher = true
+var colorSwitcher = true
+var aboba = []
+aboba[10000] = 9;
+var aboba1[10000] = [...aboba];
+var aboba2
+
+
 function fourthTask() {
     document.getElementById("switching_color").style.color = colorSwitcher ? "red" : "black"
     colorSwitcher = !colorSwitcher

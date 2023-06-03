@@ -1,0 +1,17 @@
+.container{
+    width: 650px;
+    height: 350px;
+    margin: auto;
+    background: #F5DEB3;
+    
+}
+.book_gost{
+    color: #b22222;
+    font-style: "Script";
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5px;
+    padding-top: 35px;
+    font-size: 25px;
+}

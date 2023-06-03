@@ -1,0 +1,108 @@
+/* Общие стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Стили для карточки песни */
+.song-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Стили для картинки песни */
+.song-card__image {
+    flex-basis: 33.3333%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.song-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Стили для контента песни */
+.song-card__content {
+    flex-basis: 66.6667%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для названия песни */
+.song-card__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Стили для описания песни */
+.song-card__description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Стили для кнопки скачивания */
+.song-card__download {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.song-card__download:hover {
+    background-color: #3e8e41;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    .song-card {
+        flex-direction: column;
+    }
+
+    .song-card__image {
+        flex-basis: auto;
+        height: 300px;
+    }
+
+    .song-card__content {
+        flex-basis: auto;
+        padding: 10px;
+    }
+
+    .song-card__title {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .song-card__description {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+}
