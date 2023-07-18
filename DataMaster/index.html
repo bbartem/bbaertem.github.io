@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Генератор Excel</title>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/file-saver/dist/FileSaver.min.js"></script>
+    <script src="script2.js"></script>
+</head>
+<body>
+<textarea id="inputText" rows="10" cols="50"></textarea><br>
+<button onclick="generate()">Генерировать</button>
+<button onclick="downloadExcel()">Скачать Excel</button>
+<button onclick="resetFields()">Сброс</button>
+</body>
+</html>
