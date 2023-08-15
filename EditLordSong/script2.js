@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const convertButton = document.getElementById('convertButton');
-    let coupletCount = 0; // Инициализируем счетчик куплетов
+    let coupletCount = 0;
 
     convertButton.addEventListener('click', function () {
         const elements = document.querySelectorAll('.element');
+        const filenameInput = document.getElementById('filename');
 
         let htmlContent = '';
 
@@ -46,7 +47,7 @@ ${htmlContent}
         const downloadButton = newWindow.document.getElementById('downloadButton');
         downloadButton.addEventListener('click', function () {
             const blob = new Blob([htmlContent], { type: 'text/plain;charset=utf-8' });
-            const fileName = 'converted_text.txt';
+            const fileName = filenameInput.value || 'converted_text.txt';
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
             a.download = fileName;
